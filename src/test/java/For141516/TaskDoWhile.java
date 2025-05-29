@@ -14,7 +14,7 @@ public class TaskDoWhile {
 //    }
 
 
-        int counter = 0;
+        int  counter = 0;
 
         do {
             System.out.println("vlasnuk Kozich");

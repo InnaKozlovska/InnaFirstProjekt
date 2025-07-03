@@ -1,4 +1,4 @@
-package Masiv;
+package arhiveOldClasses;
 
 public class MasivTest {
     public static void main (String [] args){

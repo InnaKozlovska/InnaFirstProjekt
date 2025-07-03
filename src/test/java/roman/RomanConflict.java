@@ -1,6 +1,6 @@
 package roman;
 
-public class RomanTestConflict {
+public class RomanConflict {
     // Test
     public static void main(String[] args) {
         System.out.println("Нове завдання");

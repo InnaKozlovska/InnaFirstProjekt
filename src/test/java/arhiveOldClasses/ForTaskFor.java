@@ -1,6 +1,6 @@
-package For141516;
+package arhiveOldClasses;
 
-public class TaskFor {
+public class ForTaskFor {
 
 
     public static void main(String[] args) {

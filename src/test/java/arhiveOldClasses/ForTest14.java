@@ -1,6 +1,6 @@
-package For141516;
+package arhiveOldClasses;
 
-public class Test14 {
+public class ForTest14 {
 
     public static void main(String[] args) {
 

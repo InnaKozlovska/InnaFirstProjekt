@@ -19,7 +19,7 @@ public class BaseTest {
 
     //! метод який завжди виконується перед початком тесту
     @BeforeTest
-    public void BeforeTest() {
+    public void beforeTest() {
         //  фулскрін вікна браузера
         driver.manage().window().maximize();
     }
@@ -48,10 +48,10 @@ public class BaseTest {
         return driver.findElement(By.xpath(locator));
     }
 
-    public WebElement getElementByCssSelector(String locator) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(10000));
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(locator)));
-        return driver.findElement(By.cssSelector(locator));
+    public WebElement getElementByXpath(By locator) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(15000));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return driver.findElement(locator);
     }
 
     public List<WebElement> getElementsByXpath(String locator) {

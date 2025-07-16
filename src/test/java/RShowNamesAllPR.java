@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -11,13 +12,14 @@ public class RShowNamesAllPR extends BaseTest {
     public void showNamesAllPR() {
         driver.get("https://github.com/InnaKozlovska/InnaFirstProjekt");
         By pullRequestTab = By.xpath("//a[@id='pull-requests-tab']");
-        driver.findElement(pullRequestTab).click();
+        //driver.findElement(pullRequestTab).click();
+        getElementByXpath("//a[@id='pull-requests-tab']").click();
+        //getElementByXpath(pullRequestTab).click();
+
         sleep(1);
         By allPullRequest = By.xpath("//a[@data-hovercard-type='pull_request']");
         List<WebElement> allPullRequestList = driver.findElements(allPullRequest);
-        List<String> pullRequestTexts = allPullRequestList.stream()
-                .map(WebElement::getText)
-                .collect(Collectors.toList());
+        List<String> pullRequestTexts = allPullRequestList.stream().map(WebElement::getText).collect(Collectors.toList());
 
         //! for
         System.out.println("через for");
@@ -33,6 +35,7 @@ public class RShowNamesAllPR extends BaseTest {
             System.out.println(iForEach + 1 + " : Назва пул реквеста = " + pullRequestText);
             iForEach++;
         }
-
+        //Assert.assertEquals("Kolya", "Ivan", "актуальний результа відрізняться від очікуваного");
+        //Assert.assertFalse (pullRequestTexts.size() > 0, "кількість ПР = 0: " + pullRequestTexts.size());
     }
 }

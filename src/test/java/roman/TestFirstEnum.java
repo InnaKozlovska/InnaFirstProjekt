@@ -1,9 +1,11 @@
+package roman;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.stream.Stream;
 
-public class FirstEnum {
+public class TestFirstEnum {
 
     public enum Day {
         MONDAY("Понеділок", true),

@@ -14,4 +14,14 @@ public class BankCard {
         this.cvc = cvc;
         this.vlasnuk = vlasnuk;
     }
+
+    @Override
+    public String toString() {
+        return "BankCard{" +
+                "nummer='" + nummer + '\'' +
+                ", aaaaa=" + data +
+                ", cvc=" + cvc +
+                ", vlasnuk='" + vlasnuk + '\'' +
+                '}';
+    }
 }

@@ -1,4 +1,4 @@
-package roman.JavaCoreInfo;
+package roman.JavaInfo;
 
 public class CastingInfo {
     public static void main(String[] args) {

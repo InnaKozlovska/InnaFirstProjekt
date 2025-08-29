@@ -1,9 +1,9 @@
-package For141516;
+package arhiveOldClasses;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Animal {
+public class ForAnimal {
 
 
     public static void main(String[] args) {

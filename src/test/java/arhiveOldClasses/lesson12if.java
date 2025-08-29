@@ -1,3 +1,5 @@
+package arhiveOldClasses;
+
 public class lesson12if {
 
     public static void main(String[] args) {

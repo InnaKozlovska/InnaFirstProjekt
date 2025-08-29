@@ -1,6 +1,6 @@
-package For141516;
+package arhiveOldClasses;
 
-public class BankCard {
+public class ForBankCard {
 
     public String nummer;
     public Integer data;
@@ -8,7 +8,7 @@ public class BankCard {
     public String vlasnuk;
 
 
-    public BankCard(String nummer, Integer data, Integer cvc,String vlasnuk) { // параметри
+    public ForBankCard(String nummer, Integer data, Integer cvc, String vlasnuk) { // параметри
         this.nummer = nummer; // конструктор
         this.data = data;
         this.cvc = cvc;

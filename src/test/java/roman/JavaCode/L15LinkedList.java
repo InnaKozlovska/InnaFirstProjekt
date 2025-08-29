@@ -1,12 +1,14 @@
 package roman.JavaCode;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
-public class L15ListArrayListLinkedList {
+public class L15LinkedList {
     public static void main(String[] args) {
-        //! ArrayList
-        List<Integer> list = new ArrayList<>();
+        //! LinkedList працює повільніше ніж ArrayList.
+        //! В кожному індексі зберігається посилання на попередній і наступний елемент.
+        //! Новий елемент додається швидше чим в ArrayList.
+        List<Integer> list = new LinkedList<>();
         list.add(5);    // 0 індекс
         list.add(7);    // 1 індекс
         list.add(1, 9); // замінити 1 індекс на цей елемент, а старе значення перемістити на 3 індекс
@@ -18,6 +20,5 @@ public class L15ListArrayListLinkedList {
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
-
     }
 }

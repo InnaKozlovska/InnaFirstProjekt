@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class L17LinkedHashSet {
     public static void main(String[] args) {
+        //! 3 по швидкості
         //! Данні зберігаються по черзі їх додавання.
         //! Працює набагато довше чим хеш сет, через те що присутній лінкед список.
         Set<String> set = new LinkedHashSet<>();

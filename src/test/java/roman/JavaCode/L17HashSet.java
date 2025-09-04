@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class L17HashSet {
     public static void main(String[] args) {
+        //! 1 по швидкості
         //! Для роботи з set використовується ітератор.
         //! Відсутній метод get(), тобто відсутній індекс.
         //! При роботі з set використовується не масив, а хеш таблиця.

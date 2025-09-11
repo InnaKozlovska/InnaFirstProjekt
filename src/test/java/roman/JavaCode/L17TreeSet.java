@@ -5,6 +5,7 @@ import java.util.TreeSet;
 
 public class L17TreeSet {
     public static void main(String[] args) {
+        //! 2 по швидкості
         //! Автоматичне сортування який реалізований через спеціальний обєкт "компаратор".
         //! Компаратор відсутній для кастомних обєктів. Для них потрібно створювати компаратор.
         Set<String> set = new TreeSet<>();

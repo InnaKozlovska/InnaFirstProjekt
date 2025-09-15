@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class Les18Map {
+public class Les18HashMap {
 
     public static void main(String[] args) {
         // map не походить від Collection

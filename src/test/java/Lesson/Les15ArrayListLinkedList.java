@@ -3,12 +3,13 @@ package Lesson;
 import java.util.ArrayList;
 import java.util.List;
 
-public class L15ArrayListLinkedList {
+public class Les15ArrayListLinkedList {
 
     public static void main(String[] args) {
         //! ArrayList працює швидше чим LinkedList.
-        //! Базова кількість індексів 10.
-        //! При автоматичному розширенні кількість індексів змінюється ("стара кількість" * 3) / 2 + 1.
+        // ArrayList динамічний і має розмір 10 індексів
+        //! індекси швидше зчитуються і перезаписує
+        //При автоматичному розширенні кількість індексів змінюється "стара кількість" * 3) / 2 + 1.
         List<Integer> list = new ArrayList<>();
         list.add(5);    // 0 індекс
         list.add(7);    // 1 індекс

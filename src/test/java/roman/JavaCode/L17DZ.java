@@ -4,6 +4,8 @@ import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
 
+//* scanner.nextLine(); //очистити буфер сканера
+
 //* while з інтами
 //    while (true) {
 //        Integer input = scanner.nextInt();
@@ -69,7 +71,22 @@ public class L17DZ {
     //! Переставить M первых строк в конец списка.
     //! Вывести список на экран, каждое значение с новой строки.
     public static void main(String[] args) {
+        Set<String> wordsList = new LinkedHashSet<>();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введіть кількість слів, яку потрібно записати в масив ");
+        int listSize = scanner.nextInt();
+        System.out.println("Введіть кількість слів, яку потрібно перенести в масиві з початку в кінець");
+        int moveWords = scanner.nextInt();
+        //очистити буфер сканера
+        scanner.nextLine();
+        System.out.println("Введіть " + listSize + " рядків");
+        //записуємо в масив
+        for (int i = 0; i < listSize; i++) {
+            wordsList.add(scanner.nextLine());
+        }
         
+
+        System.out.println(wordsList.size());
     }
 
 
@@ -79,20 +96,16 @@ public class L17DZ {
     //! Вывести на экран максимальное и минимальное числа через пробел.
 
 
-
     //! Создать список строк.
     //! Ввести строки с клавиатуры и добавить их в список.
     //! Вводить с клавиатуры строки, пока пользователь не введёт строку "end".  "end" не учитывать.
     //! Вывести строки на экран, каждую с новой строки.
 
 
-
-     //! Посчитать сколько прошло времени с начала сегодняшнего дня. Используйте класс Date.
-
+    //! Посчитать сколько прошло времени с начала сегодняшнего дня. Используйте класс Date.
 
 
-     //! Посчитать сколько дней прошло с начала года. Используйте класс LocalDate.
-
+    //! Посчитать сколько дней прошло с начала года. Используйте класс LocalDate.
 
 
     //! Реверс числа

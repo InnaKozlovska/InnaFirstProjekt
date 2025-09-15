@@ -1,7 +1,9 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import javax.xml.datatype.Duration;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -14,6 +16,7 @@ public class NewTestNg extends BaseTest {
         driver.get("https://github.com/InnaKozlovska/InnaFirstProjekt");
         By pullRequestTab = By.xpath("//a[@id='pull-requests-tab']");
         String InKommit = "zxcbb";
+        // WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.);
 
         driver.findElement(pullRequestTab).click();
         Thread.sleep(1000);

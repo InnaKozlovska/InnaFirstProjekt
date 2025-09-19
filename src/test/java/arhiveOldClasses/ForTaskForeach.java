@@ -1,6 +1,4 @@
-package For141516;
-
-import arhiveOldClasses.ForBankCard;
+package arhiveOldClasses;
 
 import java.util.ArrayList;
 import java.util.List;

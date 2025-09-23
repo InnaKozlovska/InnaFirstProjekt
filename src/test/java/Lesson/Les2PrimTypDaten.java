@@ -2,7 +2,7 @@ package Lesson;
 
 public class Les2PrimTypDaten {
     public static void main(String[] args) {
-        // примітивні типи даних 8 штук!!
+        // примітивні типи даних 8 штук!! з маленької букви
         // [20] 4 byte (в пам'яті виділяється комірка під цю змінну)
         // int це скільки пам'яті необхідно виділити
 

@@ -31,9 +31,9 @@ public class Les2HomeTask {
         int number2 = 18;
         int number3 = 21;
 
-        number1 =18;
-        number2 =21;
-        number3 =10;
+        number1 =number2;
+        number2 =number3;
+        number3 =number1;
         System.out.println(number1);
         System.out.println(number2);
         System.out.println(number3);

@@ -17,10 +17,12 @@ public class Les7IfElse {
 //            System.out.println("bad"); //виконується else
 //        }
 
-//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)); //створюється обєкт для
+//        //зчитування тексту з клавіатури
 //        System.out.println("Введіть ваш вік ");
-//        int age = Integer.parseInt(reader.readLine());// читається рядок з консолі, Alt+Enter помилка компіляції забрати
-        //введення віку від користувача
+//        int age = Integer.parseInt(reader.readLine());// reader.readLine читається рядок(типу String) з консолі,
+//        Alt+Enter забрати помилку компіляції
+//        //integer.parseInt - перетворює рядок у число
 
         //логічні операції < >; == (дорівнює); != (не дорівнює); && (i); ||(або)
 //        if (age >=18){

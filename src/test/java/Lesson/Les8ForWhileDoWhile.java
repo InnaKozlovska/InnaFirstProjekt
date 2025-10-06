@@ -50,7 +50,7 @@ public class Les8ForWhileDoWhile {
 //        }
 //        System.out.println("end");
 
-        //continue
+        //continue дозволяє пропустити 1 ітерацію циклу
         for (int i = 0; i <5; i++) {
             if (i == 3) {
                 continue;

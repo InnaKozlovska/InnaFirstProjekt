@@ -1,4 +1,4 @@
-package roman.JavaInfo;
+package roman.romanjavainfo;
 
 public class AccessModifierInfo {
     public static void main(String[] args) {

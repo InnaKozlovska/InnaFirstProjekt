@@ -1,14 +1,14 @@
-package roman.JavaCode;
+package roman.romanitkot;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
-public class L15LinkedList {
+public class L15ArrayList {
     public static void main(String[] args) {
-        //! LinkedList працює повільніше ніж ArrayList.
-        //! В кожному індексі зберігається посилання на попередній і наступний елемент.
-        //! Новий елемент додається швидше чим в ArrayList.
-        List<Integer> list = new LinkedList<>();
+        //! ArrayList працює швидше чим LinkedList.
+        //! Базова кількість індексів 10.
+        //! При автоматичному розширенні кількість індексів змінюється ("стара кількість" * 3) / 2 + 1.
+        List<Integer> list = new ArrayList<>();
         list.add(5);    // 0 індекс
         list.add(7);    // 1 індекс
         list.add(1, 9); // замінити 1 індекс на цей елемент, а старе значення перемістити на 3 індекс
@@ -20,5 +20,6 @@ public class L15LinkedList {
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
+
     }
 }

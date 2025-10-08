@@ -1,4 +1,4 @@
-package roman.JavaInfo;
+package roman.romanjavainfo;
 
 public class ExceptionInfo {
     //! Під час виконання коду Java можуть виникнути різні помилки.

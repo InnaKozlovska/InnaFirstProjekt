@@ -1,10 +1,4 @@
-package roman.JavaCode;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+package roman.romanitkot;
 
 public class L15DZ {
     //! Создать список из чисел и заполнить его на 5 элементов с консоли. Вывести все элементы списка в консоль.

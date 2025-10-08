@@ -1,4 +1,4 @@
-package roman.JavaInfo;
+package roman.romanjavainfo;
 
 import java.util.HashMap;
 

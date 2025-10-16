@@ -74,6 +74,18 @@ public class L07DZ {
      если параметр метода меньше 5 - и, выводить строку "Число больше 5", если параметр
      метода больше 5 - и, и выводить строку "Число равно 5", если параметр метода равен 5 - и.
     */
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        int number = Integer.parseInt(reader.readLine());
+//
+//
+//    }
+//
+//    public static void compare (int number){
+//        int mainNumber = 5;
+//
+//    }
+
 
 
     /*
@@ -105,21 +117,11 @@ public class L07DZ {
 //    public static void main(String[] args) throws IOException {
 //        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 //        int number = Integer.parseInt(reader.readLine());
+//        checkInterval(number);
+//    }
 //
-//        if (number >= 20 && number <= 50) {
-//            System.out.println("число входить в інтервал від 20 до 50");
-//        } else {
-//            System.out.println("число НЕ входить в інтервал від 20 до 50");
-//        }
-//    }
-
-//    public static void main(String[] args) {
-//        checkInterval(15);
-//        checkInterval(3);
-//    }
-//    // метод перевіряє, чи знаходиться число в діапазоні від 10 до 20 включно
 //    public static void checkInterval(int number) {
-//        if (number >= 10 && number <= 50) {
+//        if (number >= 20 && number <= 50) {
 //            System.out.println("число входить в інтервал від 20 до 50");
 //        } else {
 //            System.out.println("число НЕ входить в інтервал від 20 до 50");
@@ -132,14 +134,26 @@ public class L07DZ {
      аргументах метода. Например, среди чисел 3 и 6 ближайшее к пяти 6.
      Если оба числа на равной длине к 5, то вывести на экран любое из них.
     */
-    public static void main(String[] args) {
-        closeToFive(10);
-        closeToFive(6);
-    }
-    public static void closeToFive(int number){
-
-    }
-
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        int number1 = Integer.parseInt(reader.readLine());
+//        int number2 = Integer.parseInt(reader.readLine());
+//        closeToFive(number1, number2);
+//    }
+//
+//    public static void closeToFive(int number1, int number2) {
+//        int mainNubmer = 5;
+//        int diffNumber1 = Math.abs(mainNubmer - number1);
+//        int diffNumber2 = Math.abs(mainNubmer - number2);
+//
+//        if (diffNumber1 < diffNumber2) {
+//            System.out.println("Ближче до " + mainNubmer + " число " + number1);
+//        } else if (diffNumber1 > diffNumber2) {
+//            System.out.println("Ближче до " + mainNubmer + " число " + number2);
+//        } else {
+//            System.out.println("числа рівновіддалені ");
+//        }
+//    }
 
 
 }

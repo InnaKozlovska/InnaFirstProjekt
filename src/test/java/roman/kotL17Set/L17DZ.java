@@ -15,79 +15,11 @@ import java.util.Set;
 //    }
 
 public class L17DZ {
-    //! Программа вводит строки, пока пользователь не введёт пустую строку (нажав enter).
-    //! Потом программа строит новый список. Если в строке чётное число букв, строка удваивается, если нечётное – утраивается.
-    //! Программа выводит содержимое нового списка на экран.
-    //! Пример ввода:
-    //! Кот
-    //! Коты
-    //! Я
-    //! Пример вывода:
-    //! Кот Кот Кот
-    //! Коты Коты
-    //! Я Я Я
-//    public static void main(String[] args) {
-//        Set<String> wordsList = new LinkedHashSet<>();
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Введіть слова (завершення через введення пустої стрічки.");
-//        while (true) {
-//            String input = scanner.nextLine();
-//            if (input.isEmpty()) {
-//                break;
-//            }
-//            wordsList.add(input);
-//
-//        }
-//        for (String word : wordsList) {
-//            if (word.length() % 2 == 0) {
-//                System.out.println(word + " " + word);
-//            } else {
-//                System.out.print(word + " " + word + " " + word);
-//            }
-//        }
-//    }
 
-    //! Ввести с клавиатуры 5 чисел и заполнить ими список.
-    //! Вывести их в обратном порядке.
-    //! Использовать только цикл for.
-//    public static void main(String[] args) {
-//        Set<Integer> numbersList = new LinkedHashSet<>();
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Введіть пять інтових чисел (без їх повторення");
-//        for (int in = 0; in < 5; in++) {
-//            Integer input = scanner.nextInt();
-//            numbersList.add(input);
-//        }
-//        System.out.println("Ви ввели " + numbersList.size() + " чиел.");
-//        //конвертуємо в масив
-//        Integer[] numbersArray = numbersList.toArray(new Integer[0]);
-//        for (int out = numbersArray.length - 1; out >= 0; out--) {
-//            System.out.println(numbersArray[out]);
-//        }
-//    }
 
-    //! Ввести с клавиатуры 2 числа N  и M.
-    //! Ввести N строк и заполнить ими список.
-    //! Переставить M первых строк в конец списка.
-    //! Вывести список на экран, каждое значение с новой строки.
-    public static void main(String[] args) {
-        Set<String> wordsList = new LinkedHashSet<>();
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введіть кількість слів, яку потрібно записати в масив ");
-        int listSize = scanner.nextInt();
-        System.out.println("Введіть кількість слів, яку потрібно перенести в масиві з початку в кінець");
-        int moveWords = scanner.nextInt();
-        //очистити буфер сканера
-        scanner.nextLine();
-        System.out.println("Введіть " + listSize + " рядків");
-        //записуємо в масив
-        for (int i = 0; i < listSize; i++) {
-            wordsList.add(scanner.nextLine());
-        }
-        
 
-        System.out.println(wordsList.size());
-    }
+
+
 
 
     //! Создать массив на 5 чисел.

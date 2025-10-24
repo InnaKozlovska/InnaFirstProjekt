@@ -1,3 +1,5 @@
+package roman.xpaths;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +13,6 @@ import java.time.Duration;
 import java.util.List;
 
 public class BaseTest {
-
     //  ініціалізація браузера хром
     WebDriver driver = new ChromeDriver();
 
@@ -61,5 +62,4 @@ public class BaseTest {
     public void implicitlyWait() {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
     }
-
 }

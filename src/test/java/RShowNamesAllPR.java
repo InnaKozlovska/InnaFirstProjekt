@@ -21,13 +21,13 @@ public class RShowNamesAllPR extends BaseTest {
         List<WebElement> allPullRequestList = driver.findElements(allPullRequest);
         List<String> pullRequestTexts = allPullRequestList.stream().map(WebElement::getText).collect(Collectors.toList());
 
-        //! for
+        // for
         System.out.println("через for");
         for (int iFor = 0; iFor < pullRequestTexts.size(); iFor++) {
             System.out.println(iFor + 1 + " : Назва пул реквеста = " + pullRequestTexts.get(iFor));
         }
 
-        //! for-each
+        // for-each
         System.out.println();
         System.out.println("через for-each");
         int iForEach = 0;

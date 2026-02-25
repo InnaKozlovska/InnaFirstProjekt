@@ -21,7 +21,7 @@ public class L02Zminni {
         double d = 3.14;
         System.out.println(i);
 
-        i = 100;
+        i = 99;
         System.out.println(i);
 
     }

@@ -10,9 +10,6 @@ import static org.testng.AssertJUnit.fail;
 public class NewEmail extends BaseTest {
     @Test
     public void NewEmail() {
-
-        //By createNewEmailBtn = By.xpath("//a[text()='Створити скриньку']");
-
         try {
             driver.get("https://www.ukr.net/");
             getElementByXpath("//a[text()='Створити скриньку']").click();

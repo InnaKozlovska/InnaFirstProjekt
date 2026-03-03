@@ -19,7 +19,6 @@ public class L06dz02 {
         System.out.println("Введіть кількість років:");
         String time = reader.readLine();
         System.out.println(name + " буде отримувати зарплату $" + payment + " через " + time + " років!");
+
     }
-
-
 }

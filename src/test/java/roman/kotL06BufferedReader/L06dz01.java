@@ -16,5 +16,6 @@ public class L06dz01 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String input = reader.readLine();
         System.out.println("Я буду заробляти $" + input + " в місяць!");
+
     }
 }

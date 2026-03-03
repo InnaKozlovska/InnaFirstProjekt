@@ -56,8 +56,16 @@ int age = scanner.nextInt();       // автоматично читає числ
 public class L06BufferReader {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        //ввели і вивели СТР або ІНТ
+        System.out.println("Введіть ІНТ або СТР");
         String input = reader.readLine();
         System.out.println(input);
+
+        //ввели ІНТ , помножили на 2 і вивели
+        System.out.println("Введіть ІНТ, щоб помножити на 2");
+        int input2 = Integer.parseInt(reader.readLine());
+        System.out.println(input2 * 2);
 
     }
 }
